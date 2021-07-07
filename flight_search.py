@@ -4,7 +4,7 @@ import requests
 class FlightSearch:
     #This class is responsible for talking to the Flight Search API.
     def __init__(self):
-        self.tequila_api_key = "05fuooznIljFKZBOZ-_rXD6wD0tQD11b"
+        self.tequila_api_key = "**********************************"
         self.tequila_location_endpoint = "https://tequila-api.kiwi.com/locations/query"
         self.tequila_search_endpoint = "https://tequila-api.kiwi.com/v2/search"
         self.tequila_header = {
