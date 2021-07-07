@@ -6,12 +6,12 @@ from data_manager import DataManager
 class NotificationManager:
 
     def __init__(self):
-        self.twilio_account_sid = "AC8c617f74e1d7802c219754a3c90c64c2"
-        self.twilio_auth_token = "fe5b23906089d607281cc32a675e6b9c"
+        self.twilio_account_sid = "*****************************"
+        self.twilio_auth_token = "***************************"
         self.from_number = "+16672132844"
         self.to_number = "+17039668858"
         self.user_email = "pythontest12320@gmail.com"
-        self.user_password = "Boombox1"
+        self.user_password = "**********"
         self.email_type = "smtp.gmail.com"
 
     def send_message(self, data):
