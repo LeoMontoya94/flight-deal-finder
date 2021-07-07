@@ -5,7 +5,7 @@ import requests
 class DataManager:
 
     def __init__(self):
-        self.sheet_bearer_token = "Bearer 30fdsEGFJ#$)fsdgIASjfajgbrjdDgrs90gJGSDF"
+        self.sheet_bearer_token = "Bearer *************************************"
         self.prices_endpoint = "https://api.sheety.co/0e0b6e5d309efb59e34c256a0bedadc9/flightDeals/prices"
         self.users_endpoint = "https://api.sheety.co/0e0b6e5d309efb59e34c256a0bedadc9/flightDeals/users"
         self.sheet_header = {
